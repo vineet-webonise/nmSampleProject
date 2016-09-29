@@ -18,6 +18,9 @@
 		8495F3081D9D251D00C430B6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8495F3071D9D251D00C430B6 /* Info.plist */; };
 		8495F30E1D9D25BB00C430B6 /* CommonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495F30D1D9D25BB00C430B6 /* CommonConstants.swift */; };
 		8495F3101D9D25E800C430B6 /* NSString+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495F30F1D9D25E800C430B6 /* NSString+Validation.swift */; };
+		8495F3131D9D270B00C430B6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495F3121D9D270B00C430B6 /* LoginViewController.swift */; };
+		8495F3141D9D270B00C430B6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495F3121D9D270B00C430B6 /* LoginViewController.swift */; };
+		8495F3151D9D270B00C430B6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495F3121D9D270B00C430B6 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,7 @@
 		8495F3071D9D251D00C430B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Common/Info.plist; sourceTree = "<group>"; };
 		8495F30D1D9D25BB00C430B6 /* CommonConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonConstants.swift; path = Common/CommonConstants.swift; sourceTree = "<group>"; };
 		8495F30F1D9D25E800C430B6 /* NSString+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Validation.swift"; sourceTree = "<group>"; };
+		8495F3121D9D270B00C430B6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				8495F2FF1D9D24DD00C430B6 /* ViewController.swift */,
+				8495F3121D9D270B00C430B6 /* LoginViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -305,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8495F3131D9D270B00C430B6 /* LoginViewController.swift in Sources */,
 				8495F2CF1D9D241400C430B6 /* AppDelegate.swift in Sources */,
 				8495F3001D9D24DD00C430B6 /* ViewController.swift in Sources */,
 				8495F3101D9D25E800C430B6 /* NSString+Validation.swift in Sources */,
@@ -317,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8495F3141D9D270B00C430B6 /* LoginViewController.swift in Sources */,
 				8495F2E71D9D241400C430B6 /* nmSampleProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8495F3151D9D270B00C430B6 /* LoginViewController.swift in Sources */,
 				8495F2F21D9D241500C430B6 /* nmSampleProjectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
